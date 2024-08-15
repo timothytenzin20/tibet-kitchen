@@ -1,11 +1,13 @@
 import React from 'react'
+import Nav from '../components/Nav'
 
-function NoPage() {
+function Landing() {
   return (
     <div>
-      <p>ERROR 404</p>
+      <Nav></Nav>
+      <h2>ERROR 404</h2>
     </div>
   )
 }
 
-export default NoPage
+export default Landing

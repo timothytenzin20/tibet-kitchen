@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing'
@@ -19,7 +18,6 @@ function App() {
           <Route path ='/recipes' element={<Recipes/>}/>
           <Route path ='/your-recipe' element={<RecipeCard/>}/>
           <Route path = "*" element={<NoPage/>}/>
-
         </Routes>
       </BrowserRouter>
     </div>
